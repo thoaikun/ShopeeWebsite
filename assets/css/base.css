@@ -1,0 +1,36 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: rgb(83, 83, 83);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full_screen {
+    width: 100%;
+}
+
+.grid_row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
