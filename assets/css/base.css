@@ -2,6 +2,8 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: rgb(83, 83, 83);
+    --theme-color: #fa5230;
+    --shadow-box-color: rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -13,6 +15,7 @@ html {
     line-height: 1rem;
     font-family: 'Baloo Bhaijaan 2', cursive;
     box-sizing: border-box;
+    font-weight: lighter;
 }
 
 .grid {
@@ -28,6 +31,11 @@ html {
 .grid_row {
     display: flex;
     flex-flow: row wrap;
+}
+
+.button_hover:hover {
+    cursor: pointer;
+    color: var(--theme-color);
 }
 
 a {

@@ -40,15 +40,17 @@
 
             <div class="user">
                 <div class="user__notification">
-                    <i class="far fa-bell"></i>
-                    <span>Notifications</span>
+                    <div class="notification-btn">
+                        <i class="far fa-bell"></i>
+                        <span>Notifications</span>
+                    </div>
 
                     <div class="notification-box">
-                        <div class="notification-box__arrow-up"></div>
+                        <div class="arrow-up"></div>
                         <div class="notification-box__box"></div>
                         <div class="notification-box__login">
-                            <div>Sign Up</div>
-                            <div>Login</div>
+                            <div class="button_hover">Sign Up</div>
+                            <div class="button_hover">Login</div>
                         </div>
                     </div>
                 </div>
@@ -57,9 +59,19 @@
                     <span>Help</span>
                 </div>
                 <div class="user__language">
-                    <i class="fas fa-globe"></i>
-                    <span>English</span>
-                    <i class="fal fa-chevron-down" style="font-size: 0.8rem;"></i>
+                    <div class="language-btn">
+                        <i class="fas fa-globe"></i>
+                        <span>English</span>
+                        <i class="fal fa-chevron-down" style="font-size: 0.8rem;"></i>
+                    </div>
+
+                    <div class="language-box">
+                        <div class="arrow-up"></div>
+                        <div class="language-box__box">
+                            <div class="button_hover">Tiếng Việt</div>
+                            <div class="button_hover">English</div>
+                        </div>
+                    </div>
                 </div>
                 <div class="user__login">
                     <div>Sign Up</div>
@@ -91,12 +103,88 @@
             </div>
 
             <div class="search-bar__cart">
-                <i class="fal fa-shopping-cart"></i>
+                <div class="cart-btn" style="position: fixed;">
+                    <i class="fal fa-shopping-cart"></i>
+                </div>
+
+                <div class="cart-box">
+                    <div class="arrow-up"></div>
+                    <div class="cart-box__box"></div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="advertise-bigCategory"></div>
+    <div id="advertise-bigCategory">
+        <div class="advertise grid">
+            <div class="ad-slider">
+                <i class="fas fa-chevron-left ad-slider__left""></i>
+                
+                <div class="ad-slider__dot">
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                </div>
+
+                <i class="fas fa-chevron-right ad-slider__right"></i>
+            </div>
+
+            <div class="ad-label-1">
+                <div class="ad_label-1__first"></div>
+                <div class="ad-label-1__second"></div>
+            </div>
+        </div>
+
+        <div class="bigCategory grid">
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_mobile.png" alt="">
+                <p> Nạp Thẻ, Hoá Đơn <br> 
+                    E-voucher</p>
+            </div>
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_techzone.png" alt="">
+                <p> Tech Zone <br>
+                    Siêu Thị Điện Tử</p>
+            </div>
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_cheap.png" alt="">
+                <p>Gì Cũng Rẻ - Từ 1K</p>
+            </div>
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_xtra_coin.png" alt="">
+                <p> Hoàn Xu 20% <br> 
+                    Đơn từ 0Đ</p>
+            </div>
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_freeship_xtra.png" alt="">
+                <p> Freeship Xtra trên <br> 
+                    70K Mỗi Ngày</p>
+            </div>
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_mail_sale.png" alt="">
+                <p> Hàng Hiệu 50% <br>
+                    Voucher 50%</p>
+            </div>
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_global.png" alt="">
+                <p>Hàng Quốc Tế</p>
+            </div>
+            <div class="bigCategory__card">
+                <img src="./assets/imgs/Icon/shopee_premium.png" alt="">
+                <p>Shopee Premium</p>
+            </div>
+        </div>
+    </div>
 
     <div id="detail-category"></div>
 
