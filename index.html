@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap" rel="stylesheet">
 
     <title>Shopee Viet Nam</title>
 </head>
@@ -103,7 +106,7 @@
             </div>
 
             <div class="search-bar__cart">
-                <div class="cart-btn" style="position: fixed;">
+                <div class="cart-btn">
                     <i class="fal fa-shopping-cart"></i>
                 </div>
 
@@ -118,10 +121,9 @@
     <div id="advertise-bigCategory">
         <div class="advertise grid">
             <div class="ad-slider">
-                <i class="fas fa-chevron-left ad-slider__left""></i>
+                <i class="fas fa-chevron-left ad-slider__left advertise-btn"></i>
                 
-                <div class="ad-slider__dot">
-                    <i class="fas fa-circle"></i>
+                <div class="ad-slider__dot advertise-dot">
                     <i class="fas fa-circle"></i>
                     <i class="fas fa-circle"></i>
                     <i class="fas fa-circle"></i>
@@ -136,7 +138,7 @@
                     <i class="fas fa-circle"></i>
                 </div>
 
-                <i class="fas fa-chevron-right ad-slider__right"></i>
+                <i class="fas fa-chevron-right ad-slider__right advertise-btn"></i>
             </div>
 
             <div class="ad-label-1">
@@ -186,13 +188,932 @@
         </div>
     </div>
 
-    <div id="detail-category"></div>
+    <div id="main">
+        <div class="ad-label-2 grid"></div>
 
-    <div id="flash-sale"></div>
+        <div class="detail-category grid">
+            <div class="detail-category__header header-label">CATEGORIES</div>
+            <div class="category-list">
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/T-shirt.png" alt="">
+                    <p>Men clothes</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/phone.png" alt="">
+                    <p>Mobile & gadgets</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/TV.png" alt="">
+                    <p>Consumer Electronics</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/computer.png" alt="">
+                    <p>Computer & Accessories</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/camera.png" alt="">
+                    <p>Cameras</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/watch.png" alt="">
+                    <p>watches</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/shoes.png" alt="">
+                    <p>Men Shoes</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/home_appliances.png" alt="">
+                    <p>Home <br> Appliances</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/sport.png" alt="">
+                    <p>Sport & Outdoor</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/motorbike.png" alt="">
+                    <p>Automotive</p>
+                </div>
+                <div class="category-list__element" style="border-top: 0.5px rgba(180, 179, 179, 0.295) solid; border-left: none;">
+                    <img src="./assets/imgs/Icon/dress.png" alt="">
+                    <p>Woman clothes</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/kids.png" alt="">
+                    <p>Moms, Kids & Babies</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/home_living.png" alt="">
+                    <p>Home & Living</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/make_up.png" alt="">
+                    <p>Beauty</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/health.png" alt="">
+                    <p>Health</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/woman_shoes.png" alt="">
+                    <p>Woman Shoes</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/woman_bags.png" alt="">
+                    <p>Woman Bags</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/fashion.png" alt="">
+                    <p>Fashion Accessories</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/grocery.png" alt="">
+                    <p>Grocery</p>
+                </div>
+                <div class="category-list__element">
+                    <img src="./assets/imgs/Icon/book.png" alt="">
+                    <p>Books & Stationery</p>
+                </div>
+            </div>
+        </div>
 
-    <div id="top-product"></div>
+        <div class="flash-sale grid">
+            <div class="flash-sale__head">
+                <div style="display: flex; flex-flow: row wrap">
+                    <img src="./assets/imgs/flash-sale.png" alt="" style="width: 130px;">
+                    <div class="countdown-timer">
+                        <div class="countdown-timer__h">
+                            <div>0</div>
+                            <div>1</div>
+                        </div>
+                        <div class="countdown-timer__m">
+                            <div>2</div>
+                            <div>3</div>
+                        </div>
+                        <div class="countdown-timer__s">
+                            <div>4</div>
+                            <div>5</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-btn">
+                    <span>See all</span>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="highlight-products">
+                <div class="product-arrow__left flash-sale-btn">
+                    <i class="fas fa-angle-left flash-sale-btn"></i>
+                </div>
+                    
+                <div class="flash-sale-product--p0 highlight-products--show">
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/underwear.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>10.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 40px;"></div>
+                            <div></div>
+                            <div>25 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/clear.jpg);"></div>
+                        <div class="product-price"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>89.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 20px;"></div>
+                            <div></div>
+                            <div>65 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/downy.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>99.200</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 60px;"></div>
+                            <div></div>
+                            <div>50 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/enchanteur.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>63.600</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 15px;"></div>
+                            <div></div>
+                            <div>2 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/enchanteur_lan_nach.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>32.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 80px;"></div>
+                            <div></div>
+                            <div>33 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/uniform_dress.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>150.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 20px"></div>
+                            <div></div>
+                            <div>17 SOLD</div>
+                        </div>
+                    </div>
+                </div>
 
-    <div id="suggestion-product"></div>
+                <div class="flash-sale-product--p1">
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/mask.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>10.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 40px;"></div>
+                            <div></div>
+                            <div>25 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/beauty_mask.jpg);"></div>
+                        <div class="product-price"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>89.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 20px;"></div>
+                            <div></div>
+                            <div>65 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/day_nich.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>99.200</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 60px;"></div>
+                            <div></div>
+                            <div>50 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/sock.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>63.600</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 15px;"></div>
+                            <div></div>
+                            <div>2 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/lightning_cabel.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>32.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 80px;"></div>
+                            <div></div>
+                            <div>33 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/bed_cover.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>150.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 20px"></div>
+                            <div></div>
+                            <div>17 SOLD</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flash-sale-product--p2">
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/sticker.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>880.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 40px;"></div>
+                            <div></div>
+                            <div>25 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/rice_mask.jpg);"></div>
+                        <div class="product-price"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>89.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 20px;"></div>
+                            <div></div>
+                            <div>65 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/massage.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>99.200</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 60px;"></div>
+                            <div></div>
+                            <div>50 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/jacket.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>63.600</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 15px;"></div>
+                            <div></div>
+                            <div>2 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/khan_yem.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>32.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 80px;"></div>
+                            <div></div>
+                            <div>33 SOLD</div>
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/sandal.jpg);"></div>
+                        <div class="product-price">
+                            <span>&#8363;</span>
+                            <span>150.000</span>
+                        </div>
+                        <div class="product-stoke">
+                            <div style="width: 20px"></div>
+                            <div></div>
+                            <div>17 SOLD</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-arrow__right flash-sale-btn">
+                    <i class="fas fa-angle-right flash-sale-btn"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="ad-label-3 grid">
+            <a href="https://shopee.vn/unilever-hb"></a>
+            <a href="https://shopee.vn/m/sieu-sale-nganh-hang"></a>
+            <a href="https://shopee.vn/m/sieu-sale-fmcg"></a>
+        </div>
+
+        <div class="shopee-mail grid">
+            <div class="shopee-mail-head">
+                <div class="shopee-mail-head__card">SHOPEE MAIL</div>
+                <div class="shopee-mail-head__card">
+                    <i class="fas fa-undo"></i>
+                    <span>15 Days Return</span>
+                </div>
+                <div class="shopee-mail-head__card">
+                    <i class="fas fa-truck-moving"></i>
+                    <span>100% Authentic</span>
+                </div>
+                <div class="shopee-mail-head__card">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Free Shipping</span>
+                </div>
+            </div>
+
+            <div class="shopee-mail-contain">
+                <div class="shopee-mail-slider">
+                    <i class="fas fa-chevron-left ad-slider__left shopee-mail-btn""></i>
+                
+                    <div class="ad-slider__dot shopee-mail-dot">
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                    </div>
+    
+                    <i class="fas fa-chevron-right ad-slider__right shopee-mail-btn"></i>
+                </div>
+        
+                <div class="top-brand">
+                    <div class="product-arrow__left" style="margin-left: 5px;">
+                        <i class="fas fa-angle-left"></i>
+                    </div>
+
+                    <div class="brand-list-p0 brand-list--show">
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/unilever.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/DHC.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/whiskas.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/unilever_2.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/senka.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/romando.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/focallure.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/larocheposay.png" alt="">
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="brand-list-p1">
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/deli.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/az_vietnam.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/w.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/m_ny.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/muji.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/loreal.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element">
+                            <img src="./assets/imgs/ShopeeMail_Brand/perfect_diary.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="brand-list-element" style="color: var(--shopee-mail-color); text-align: center; align-self: center; font-size: 1.2rem; cursor: pointer;">
+                            See all
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-arrow__right">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-search grid">   
+            <div class="top-search-header header header-label">
+                TREADING SEARCH
+                <div class="header-btn">
+                    <i class="fas fa-sync"></i>
+                    <span>Change</span>
+                </div>
+            </div>
+
+            <div class="top-search-contain">
+                <div class="top-search-contain__element">
+                    <div>
+                        <h4>Dấy Dán Tư...</h4>
+                        <p>80k+ products</p>
+                    </div>
+                    <img src="./assets/imgs/Products/wall_paper.jpg" alt="">
+                </div>
+                <div class="top-search-contain__element">
+                    <div>
+                        <h4>Hoodie</h4>
+                        <p>744k+ products</p>
+                    </div>
+                    <img src="./assets/imgs/Products/hoodie.jpg" alt="">
+                </div>
+                <div class="top-search-contain__element">
+                    <div>
+                        <h4>Vòng Tay</h4>
+                        <p>526k+ products</p>
+                    </div>
+                    <img src="./assets/imgs/Products/chains.jpg" alt="">
+                </div>
+                <div class="top-search-contain__element">
+                    <div>
+                        <h4>Đèn Led Tran...</h4>
+                        <p>149k+ products</p>
+                    </div>
+                    <img src="./assets/imgs/Products/rgb_led.jpg" alt="">
+                </div>
+                <div class="top-search-contain__element">
+                    <div>
+                        <h4>Nồi Chiên Kh...</h4>
+                        <p>39k+ products</p>
+                    </div>
+                    <img src="./assets/imgs/Products/air_fried_pot.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="top-product grid">
+            <div class="top-product-header header header-label">
+                TOP PRODUCT
+                <div class="header-btn">
+                    <span>See all</span>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+
+            <div class="highlight-products" style="padding-top: 20px;">
+                <div class="product-arrow__left top-product-btn">
+                    <i class="fas fa-angle-left top-product-btn"></i>
+                </div>
+                    
+                <div class="top-product--p0 highlight-products--show">
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/iphone_case.jpg);">
+                            <div>Monthly Sales 254k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Iphone Case
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/eyeliner.jpg);">
+                            <div>Monthly Sales 143k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Waterproof Eyeline
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/cotton_pad.jpg);">
+                            <div>Monthly Sales 132k+</div> 
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cotton Pads 3 layers
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/cotton_woman_pain.jpg);">
+                            <div>Monthly Sales 80k+</div> 
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cotton Women's Panties
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/loose_pants.jpg);">
+                            <div>Monthly Sales 104k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Women's Loose Pants
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/cleansing_water.jpg);">
+                            <div>Monthly Sales 92k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cleansing Water
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-product--p1">
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/class.jpg);">
+                            <div>Monthly Sales 69k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Iphone Case
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/crab_hair.jpg);">
+                            <div>Monthly Sales 63k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Waterproof Eyeline
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/bed_set.jpg);">
+                            <div>Monthly Sales 57k+</div> 
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cotton Pads 3 layers
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/women_sock.jpg);">
+                            <div>Monthly Sales 107k+</div> 
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cotton Women's Panties
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/headphones.jpg);">
+                            <div>Monthly Sales 83k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Women's Loose Pants
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/cream_makeup.jpg);">
+                            <div>Monthly Sales 64k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cleansing Water
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-product--p2">
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/boxing_underwear.jpg);">
+                            <div>Monthly Sales 55k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Iphone Case
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/ink_pen.jpg);">
+                            <div>Monthly Sales 57k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Waterproof Eyeline
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/legging.jpg);">
+                            <div>Monthly Sales 58k+</div> 
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cotton Pads 3 layers
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/usbC_cabel.jpg);">
+                            <div>Monthly Sales 62k+</div> 
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cotton Women's Panties
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/unicharm_mask.jpg);">
+                            <div>Monthly Sales 68k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Women's Loose Pants
+                        </div>
+                    </div>
+                    <div class="highlight-products__element">
+                        <div class="product-image" style="background-image: url(./assets/imgs/Products/lipstick.jpg);">
+                            <div>Monthly Sales 87k+</div>  
+                            <div></div>
+                        </div>
+                        <div class="product-name">
+                            Cleansing Water
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-arrow__right top-product-btn">
+                    <i class="fas fa-angle-right top-product-btn"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="daily-discover grid">
+            <div class="daily-discover__header">
+                <div>DAILY DISCOVER</div>
+            </div>
+
+            <div class="daily-discover__contain">
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/air_pod.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            [Bảo Hành 1 Đổi 1] Tai Nghe bluetooth không dây Đổi Tên...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>13.999</span>
+                            </div>
+                            <div class="product-info__number">
+                                661 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/nj80.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Bàn phím cơ không dây Keydous NJ80 RGB Hotswa...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>2.550.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                3 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/sneaker.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Giày thể thao basic siêu êm chân phong cách Ullzzang cá...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>250.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                108 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/sweater.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Áo Sweater Form Rộng Unisex Seven Nam Nữ Mặc Được...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>100.900</span>
+                            </div>
+                            <div class="product-info__number">
+                                17k sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/lipstick_2.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Son kem lì HERORANGE mềm mịn như nhung chống thấm...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>98.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                400 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/den_ban.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Mua thì mua không mua thì Mua
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>180.100</span>
+                            </div>
+                            <div class="product-info__number">
+                                270 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/jean.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            quần jean nam baggy ống rộng chất bò cao cấp dáng...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>89.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                743 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/egg_machine.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Máy đánh trứng cầm tay, trộn bột làm bánh đa năng...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>286.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                20 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/bag.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            [Bảo Hành 1 Đổi 1] Tai Nghe bluetooth không dây Đổi Tên...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>290.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                661 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/serum.jpg  " alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Nước hoa nam dầu thơm nam tính mạnh mẽ cuố...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>150.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                300 sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/may_phun_suong.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Máy phun sương và xông tinh dầu tạo ẩm điều hòa khô...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>25.000</span>
+                            </div>
+                            <div class="product-info__number">
+                                1.6k sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-element">
+                    <img src="./assets/imgs/Products/boot.jpg" alt="">
+                    <div class="product-info">
+                        <div class="product-info__name">
+                            Giày Bốt Martin Gót Vuông Dày Phong Cách Hàn Qu...
+                        </div>
+                        <div>
+                            <div class="product-price">
+                                <span>&#8363;</span>
+                                <span>100.900</span>
+                            </div>
+                            <div class="product-info__number">
+                                17k sold
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    
 
     <div id="about"></div>
 
