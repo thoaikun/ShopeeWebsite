@@ -364,3 +364,22 @@ function brandSlider() {
     rightArrow.addEventListener('click', clickArrow)
 }
 brandSlider()
+
+// choosing product 
+function chooseProduct() {
+    let productElements = document.querySelectorAll('.product-element')
+    productElements.forEach(product => {
+        product.addEventListener('mouseover', function() {
+            product.classList.add('product-element--highlight')
+            product.querySelector('.find-similar').classList.add('find-similar--show')
+        })
+
+        product.addEventListener('mouseout', function() {
+            product.classList.remove('product-element--highlight')
+            product.querySelector('.find-similar').classList.remove('find-similar--show')
+        })
+    })
+
+
+}
+chooseProduct()
