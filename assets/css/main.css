@@ -209,6 +209,9 @@
     cursor: pointer;
 }
 
+.user-btn {
+    display: none;
+}
 .cart-btn {
     position: fixed;
     top: 60px;
@@ -321,7 +324,7 @@
 .bigCategory {
     margin-top: 25px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     text-align: center;
     font-size: 0.9rem;
@@ -458,7 +461,6 @@
 }
 
 .highlight-products__element {
-    flex-grow: 2;
     width: 14%;
     height: 250px;
 }
@@ -577,7 +579,6 @@
 
 .shopee-mail-contain {
     margin-top: 10px;
-    height: 450px;
     display: flex;
     flex-flow: row nowrap;
 }

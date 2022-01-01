@@ -30,11 +30,6 @@ html {
     width: 100%;
 }
 
-.grid_row {
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .button_hover:hover {
     cursor: pointer;
     color: var(--theme-color);
